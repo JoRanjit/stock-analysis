@@ -14,14 +14,14 @@
 ###### Results -2017
 	 All 12 stockes except one had a promising year in 2017:
 		* 4 stocks gave more than 100% returns
-		* DQ stock gave almost 200% returns
-		* TERP had a bad year, and was doen by 7.2%
+		* Stock 'DQ' gave almost 200% returns
+		* Stock 'TERP' had a bad year, and was down by 7.2%
 		
 	
 ###### Results -2018
 	2018 was a bad year for alomost all stocks
 		* only 2 stocks returned a profit
-		* ENPH and RUN stocks relatively performed better, but did not give a 100% return
+		* Stocks 'ENPH' and 'RUN' relatively performed better, but did not give a 100% return
 		
 
 #### Refactoring code: 
@@ -40,9 +40,8 @@
 
 #### pros and cons apply to refactoring the original VBA script
 	* The original VBA script had all the necessary steps involved to generate the expected results
-	* This made refactoring easy as we had to just apply the array logic in the refactored code, 
-		while the original one was designed to handle a specific situation
-	* All Stocks Analysis took about 0.9 sec to run, while the refactored VBA_Challenge code ran in 0.2 sec.
+	* This made refactoring easy as we had to just apply the array logic which made the code cleaner and quicker
+	* 'All Stocks Analysis' macro took about 0.9 sec to run, while the refactored 'VBA_Challenge' code ran in 0.2 sec.
 	
   
 	![VBA Callenge 2017 popup](https://github.com/JoRanjit/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
